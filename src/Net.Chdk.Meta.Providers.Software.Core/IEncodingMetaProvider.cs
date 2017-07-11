@@ -4,6 +4,6 @@ namespace Net.Chdk.Meta.Providers.Software
 {
     public interface IEncodingMetaProvider
     {
-        SoftwareEncodingInfo GetEncoding(SoftwareEncodingInfo encoding);
+        SoftwareEncodingInfo GetEncoding(SoftwareInfo software);
     }
 }
